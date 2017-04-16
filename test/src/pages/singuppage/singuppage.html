@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-navbar >
+    <ion-title>Register</ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content  padding>
+
+  <div >
+    
+    <form >
+      <ion-row>
+        <ion-col>
+          <ion-list inset>
+            
+           
+              <ion-item>
+                <ion-label floating >First Name</ion-label>
+              <ion-input type="text" placeholder="First Name" name= "FirstName"  required></ion-input>
+            </ion-item>
+            
+              <ion-item>
+                <ion-label floating >Last Name</ion-label>
+              <ion-input type="text" placeholder="Last Name" name="password"  required></ion-input>
+            </ion-item>
+
+                 <ion-item>
+              <ion-label  floating  >Date of Birth </ion-label>
+              <ion-datetime displayFormat="MMM DD, YYYY "></ion-datetime>
+             </ion-item>
+              
+              <ion-list radio-group >
+
+                   
+                    <ion-item>
+                  
+                      <ion-label>Male</ion-label>
+                      <ion-radio value="Male" ></ion-radio>
+                        </ion-item>                   
+                      
+                     <ion-item>
+                       
+                     <ion-label>Female</ion-label>
+                     <ion-radio value="Female"></ion-radio>
+                    </ion-item>    
+
+              </ion-list>
+            
+            <ion-item>
+              <ion-label floating >Mobile Number</ion-label>
+              <ion-input type="text" placeholder="Mobile Number" name="text"  required></ion-input>
+            </ion-item>
+
+              <ion-item>
+                <ion-label floating >Address</ion-label>
+              <ion-input type="text" placeholder="Address" name= "Address"  required></ion-input>
+            </ion-item>
+
+             <ion-item>
+               <ion-label floating >Email</ion-label>
+              <ion-input type="text" placeholder="Email" name="email"  required></ion-input>
+            </ion-item>
+            
+            <ion-item>
+              <ion-label floating >Password</ion-label>
+              <ion-input type="password" placeholder="Password" name="password"  required></ion-input>
+            </ion-item>
+            
+              <ion-item>
+                <ion-label floating >Confirmed Password</ion-label>
+              <ion-input type="text" placeholder="confirmed Password" name="password"  required></ion-input>
+            </ion-item>
+            
+              
+
+            
+          </ion-list>
+        </ion-col>
+      </ion-row>
+      
+      <ion-row>
+        <ion-col >
+          <button ion-button class="submit-btn" >Register</button>
+        </ion-col>
+      </ion-row>
+      
+    </form>
+  </div>
+</ion-content>
